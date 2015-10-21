@@ -37,12 +37,27 @@ hr {
 a:link, a:active, a:hover {
     color: #BCBBBB;
 }
-@media screen and (max-width: 400px){
-    .naddjust {
-        position: relative;
-        right: 15px;
+@media screen and (max-width: 800px) {
+    .title-super {
+        font-size: 30px;;
+    }
+    .title-logo{
+        zoom: 60%;
     }
 }
+@media screen and (max-width: 490px){
+    .naddjust {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .remove {
+        display: none;
+    }
+}
+/**
 @media screen and (max-width: 300px){
     .naddjust {
         position: relative;
@@ -51,3 +66,4 @@ a:link, a:active, a:hover {
         display: none;
     }
 }
+**/

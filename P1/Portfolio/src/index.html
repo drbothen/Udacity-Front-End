@@ -54,23 +54,64 @@
                 <a href="https://github.com/udacity/sunflower">https://github.com/udacity/sunflower/</a>
             </div>
             <div class="col-xs-12 col-md-4 works">
-                <img class="img-responsive center-block picsize" src="img/bokeh.jpg" alt="BOKEH Picture">
+                <img class="img-responsive center-block picsize" src="img/bokeh.jpg" alt="BOKEH Picture" data-toggle="modal" data-target="#bokehmodal">
                 <h3 class="text-uppercase">Bokeh</h3>
                 <a href="https://github.com/udacity/bokeh">https://github.com/udacity/bokeh/</a>
             </div>
         </footer>
         <!-- Modal -->
-        <div class="modal fade" id="appifymodal" role="dialog">
+        <div class="modal fade" id="appifymodal" role="dialog" tabindex="-1" aria-labelledby="ariaappify" aria-hidden="true">
             <div class="modal-dialog">
                 <!-- Modal Content -->
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-header text-uppercase text-center">Appifiy In-Depth</h4>
+                        <h4 class="modal-header text-uppercase text-center" id="ariaappify">Appifiy In-Depth</h4>
                     </div>
-                    <div class="modal-body">
-                        <img class="center-block" src="img/appify.jpg" alt="appify">
-                        <p class="text-center">This is place holder text for when I have a real app</p>
+                    <div class="modal-body text-center">
+                        <img class="center-block img-responsive" src="img/appify.jpg" alt="appify">
+                        <p>This is place holder text for when I have a real app</p>
+                        <a href="https://github.com/udacity/appify">https://github.com/udacity/appify/</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sunflowermodal" role="dialog" tabindex="-1" aria-labelledby="ariasunflower" aria-hidden="true">
+            <div class="modal-dialog">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-header text-uppercase text-center" id="ariasunflower">Sunflower In-Depth</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="center-block img-responsive" src="img/sunflower.jpg" alt="sunflower">
+                        <p>This is place holder text for when I have a real app</p>
+                        <a href="https://github.com/udacity/appify">https://github.com/udacity/sunflower/</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bokehmodal" role="dialog" tabindex="-1" aria-labelledby="ariabokeh" aria-hidden="true">
+            <div class="modal-dialog">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-header text-uppercase text-center" id="ariabokeh">Bokeh In-Depth</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="center-block img-responsive" src="img/bokeh.jpg" alt="bokeh">
+                        <p>This is place holder text for when I have a real app</p>
+                        <a href="https://github.com/udacity/appify">https://github.com/udacity/bokeh/</a>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="close" data-dismiss="modal">close</button>
@@ -79,7 +120,7 @@
             </div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
