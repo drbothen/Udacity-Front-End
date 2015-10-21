@@ -34,7 +34,7 @@ hr {
 .title-logo{
     margin-top: 20px;
 }
-a:link {
+a:link, a:active, a:hover {
     color: #BCBBBB;
 }
 @media screen and (max-width: 400px){
