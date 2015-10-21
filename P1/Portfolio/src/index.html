@@ -44,12 +44,12 @@
         </div>
         <footer class="row text-center">
             <div class="col-xs-12 col-md-4 works">
-                <img class="img-responsive center-block picsize" src="img/appify.jpg" alt="APPIFY Picture">
+                <img class="img-responsive center-block picsize" src="img/appify.jpg" alt="APPIFY Picture" data-toggle="modal" data-target="#appifymodal">
                 <h3 class="text-uppercase">Appify</h3>
                 <a href="https://github.com/udacity/appify">https://github.com/udacity/appify/</a>
             </div>
             <div class="col-xs-12 col-md-4 works">
-                <img class="img-responsive center-block picsize" src="img/sunflower.jpg" alt="SUNFLOWER Picture">
+                <img class="img-responsive center-block picsize" src="img/sunflower.jpg" alt="SUNFLOWER Picture" data-toggle="modal" data-target="#sunflowermodal">
                 <h3 class="text-uppercase">Sunflower</h3>
                 <a href="https://github.com/udacity/sunflower">https://github.com/udacity/sunflower/</a>
             </div>
@@ -59,6 +59,27 @@
                 <a href="https://github.com/udacity/bokeh">https://github.com/udacity/bokeh/</a>
             </div>
         </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="appifymodal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-header text-uppercase text-center">Appifiy In-Depth</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="center-block" src="img/appify.jpg" alt="appify">
+                        <p class="text-center">This is place holder text for when I have a real app</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
